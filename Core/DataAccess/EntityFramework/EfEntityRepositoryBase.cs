@@ -22,6 +22,7 @@ namespace Core.DataAccess.EntityFramework
                 context.SaveChanges();
 
             }
+           
         }
 
         public void Delete(TEntity entity)
