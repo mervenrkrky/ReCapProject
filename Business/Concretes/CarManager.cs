@@ -28,10 +28,7 @@ namespace Business.Concretes
             {
                 return new ErrorResult(Messages.CarNameInValid);
             }
-            /*if(car.Description.Length>1 && car.DailyPrice > 0)
-            {
-                 _carDal.Add(car);
-            }*/
+       
             _carDal.Add(car);
             return new Result(true,Messages.CarAdded);
 
