@@ -41,7 +41,7 @@ namespace Business.Concretes
             return new Result(true, Messages.CarDeleted);
 
         }
-
+        
         public IDataResult<List<Car>> GetAll()
         {
             
